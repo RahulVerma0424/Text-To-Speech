@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Natural TTS Reader</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Text to Speech Reader</h2>
+  <textarea id="inputText" placeholder="Type or paste text here..."></textarea>
+  <br>
+  <button id="playPause">▶️</button>
+  <label for="speedControl">Speed:</label>
+  <input type="range" id="speedControl" min="0.5" max="4" step="0.1" value="1">
+  <button id="themeToggle">🌓</button>
+  <div id="highlightContainer"></div>
+
+  <h3>History</h3>
+  <ul id="historyList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
